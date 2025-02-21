@@ -1,0 +1,16 @@
+#muffin {
+    height: 100vh;
+}
+
+#hover::before {
+    content: "\200B";
+}
+#hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    background: black;
+    width: 15px;
+    height: 15px;
+}
